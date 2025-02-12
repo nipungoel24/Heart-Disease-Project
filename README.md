@@ -12,33 +12,35 @@ This project applies machine learning to classify heart disease based on patient
 ## How to Run
 
 ### Step 1: Clone the Repository  
-
+```bash
 git clone https://github.com/nipungoel24/Heart-Disease-Classification.git
 cd Heart-Disease-Classification
-Step 2: Create and Activate a Conda Environment
-bash
-Copy
-Edit
+```
+
+### Step 2: Create and Activate a Conda Environment  
+```bash
 conda create -n heartdisease python=3.10
 conda activate heartdisease
-Step 3: Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Step 4: Run the Jupyter Notebook
-bash
-Copy
-Edit
-jupyter notebook
-Open the .ipynb file and execute the cells step by step.
+```
 
-Dataset
+### Step 3: Install Dependencies  
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Run the Jupyter Notebook  
+```bash
+jupyter notebook
+```
+Open the `.ipynb` file and execute the cells step by step.
+
+## Dataset
 The dataset contains patient health records with features like age, cholesterol levels, blood pressure, and more. The target variable indicates whether a patient has heart disease.
 
-Future Enhancements
-Implement deep learning models for better accuracy
-Deploy the model as a web API for real-time predictions
-Optimize feature selection techniques
-Contributions
-Feel free to fork the repo and open a pull request with improvements! 
+## Future Enhancements
+- Implement deep learning models for better accuracy
+- Deploy the model as a web API for real-time predictions
+- Optimize feature selection techniques
+
+## Contributions  
+Feel free to fork the repo and open a pull request with improvements!
