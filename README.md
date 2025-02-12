@@ -19,7 +19,7 @@ cd Heart-Disease-Classification
 
 ### Step 2: Create and Activate a Conda Environment  
 ```bash
-conda env create -f environment.yml
+conda env create -f myenv.yml
 conda activate heartdisease
 ```
 
