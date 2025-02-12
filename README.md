@@ -19,16 +19,11 @@ cd Heart-Disease-Classification
 
 ### Step 2: Create and Activate a Conda Environment  
 ```bash
-conda create -n heartdisease python=3.10
+conda env create -f environment.yml
 conda activate heartdisease
 ```
 
-### Step 3: Install Dependencies  
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Run the Jupyter Notebook  
+### Step 3: Run the Jupyter Notebook  
 ```bash
 jupyter notebook
 ```
